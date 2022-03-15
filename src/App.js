@@ -9,7 +9,8 @@ function App() {
     <div className="App">
       <h1>Organizational Tree Example without json normal way is : </h1>
        <Orranizational_tree />
-  
+        
+        
     </div>
   );
 }

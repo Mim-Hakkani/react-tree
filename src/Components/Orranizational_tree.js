@@ -18,9 +18,26 @@ const Orranizational_tree = () => {
   </TreeNode>
 
   <TreeNode label={<div>Child 2</div>}>
-    <TreeNode label={<div>Grand Child 3</div>} />
-    <TreeNode label={<div>Great Grand Child 1</div>} />
-    <TreeNode label={<div>Great Grand Child 2</div>} />
+    <TreeNode label={<div>
+      <span>
+          <img src='https://png.pngtree.com/png-vector/20190710/ourmid/pngtree-user-vector-avatar-png-image_1541962.jpg' alt="" height="40" width="40" style={{borderRadius:'50%'}}/>
+          <p style={{margin:'2px'}}>Himmsad</p>
+        </span>
+    </div>} />
+
+    <TreeNode label={<div>
+      <span>
+          <img src='https://png.pngtree.com/png-vector/20190710/ourmid/pngtree-user-vector-avatar-png-image_1541962.jpg' alt="" height="40" width="40" style={{borderRadius:'50%'}}/>
+          <p style={{margin:'2px'}}>Himmsad</p>
+        </span>
+    </div>} />
+    
+    <TreeNode label={<div>
+      <span>
+          <img src='https://png.pngtree.com/png-vector/20190710/ourmid/pngtree-user-vector-avatar-png-image_1541962.jpg' alt="" height="40" width="40" style={{borderRadius:'50%'}}/>
+          <p style={{margin:'2px'}}>Himmsad</p>
+        </span>
+    </div>} />
     
 
   </TreeNode>
