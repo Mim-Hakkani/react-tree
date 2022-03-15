@@ -12,16 +12,36 @@ const Orranizational_tree = () => {
   <TreeNode label={<div>Child 1</div>}>
     <TreeNode label={<div>Grand Child</div>} />
   </TreeNode>
+
   <TreeNode label={<div>Child 2</div>}>
-    <TreeNode label={<div>Grand Child</div>}>
-      <TreeNode label={<div>Great Grand Child 1</div>} />
-      <TreeNode label={<div>Great Grand Child 2</div>} />
-    </TreeNode>
+    <TreeNode label={<div>Grand Child 3</div>} />
+    <TreeNode label={<div>Great Grand Child 1</div>} />
+    <TreeNode label={<div>Great Grand Child 2</div>} />
+    
+
   </TreeNode>
+
   <TreeNode label={<div>Child 3</div>}>
     <TreeNode label={<div>Grand Child 1</div>} />
     <TreeNode label={<div>Grand Child 2</div>} />
   </TreeNode>
+
+    <TreeNode label={<div>Child 3</div>}>
+      <TreeNode label={<div>Grand Child 1</div>}>
+         <TreeNode label={<div>mim</div>} >
+             <TreeNode label={<div> A </div>}  />
+             <TreeNode label={<div> B </div>}  />
+             <TreeNode label={<div> C </div>}  />
+             <TreeNode label={<div> D </div>}  />
+             <TreeNode label={<div> E </div>}  />
+           </TreeNode>
+
+         <TreeNode label={<div>jim</div>} />
+      </TreeNode>
+      <TreeNode label={<div>Grand Child 2</div>} />
+  </TreeNode>
+
+
 </Tree>
     );
 };
