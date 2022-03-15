@@ -10,7 +10,11 @@ const Orranizational_tree = () => {
   lineWidth="3px"
 >
   <TreeNode label={<div>Child 1</div>}>
-    <TreeNode label={<div><img src='https://www.w3schools.com/w3images/avatar2.png' alt="" height="50" width="50" style={{borderRadius:'50%'}}/></div>} />
+    <TreeNode label={<div><img src='https://www.w3schools.com/w3images/avatar2.png' alt="" height="40" width="40" style={{borderRadius:'50%'}}/></div>} >
+
+         <TreeNode label={<div><img src='https://www.w3schools.com/howto/img_avatar.png' alt="" height="40" width="40" style={{borderRadius:'50%'}}/></div>} />
+          <TreeNode label={<div><img src='https://png.pngtree.com/png-vector/20190710/ourmid/pngtree-user-vector-avatar-png-image_1541962.jpg' alt="" height="40" width="40" style={{borderRadius:'50%'}}/></div>} />
+     </TreeNode>
   </TreeNode>
 
   <TreeNode label={<div>Child 2</div>}>
