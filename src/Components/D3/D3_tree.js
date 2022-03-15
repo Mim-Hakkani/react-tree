@@ -13,15 +13,29 @@ const containerStyles = {
 // as an SVG `rect` instead of the default `circle`.
 const renderRectSvgNode = ({ nodeDatum, toggleNode }) => (
   <g>
-    <rect width="20" height="20" x="-10" onClick={toggleNode} />
-    <text fill="black" strokeWidth="1" x="20">
+
+    {/* <rect width="40" height="40" x="-20" fill="red"/> */}
+
+    {/* <image  href="https://www.w3schools.com/howto/img_avatar.png"    height="50" width="50" alt="" 
+    />
+
+    <text >Mim</text> */}
+  
+      <text fill="red" x="-10" y="5" strokeWidth="1">{nodeDatum.name}</text>
+   
+   
+       {/* <text fill="red" x="-10" y="5" strokeWidth="1">
+        Department
+      </text>  */}
+    {/* <rect width="40" height="40" x="-20" fill="red" onClick={toggleNode}  /> */}
+    {/* <text fill="green" strokeWidth="1" x="20">
       {nodeDatum.name}
-    </text>
-    {nodeDatum.attributes?.department && (
-      <text fill="black" x="20" dy="20" strokeWidth="1">
+    </text> */}
+    {/* {nodeDatum.attributes?.department && (
+      <text fill="red" x="20" dy="20" strokeWidth="1">
         Department: {nodeDatum.attributes?.department}
-      </text>
-    )}
+      </text> */}
+    {/* )} */}
   </g>
 );
 
