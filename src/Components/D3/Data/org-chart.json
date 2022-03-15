@@ -28,6 +28,26 @@
               "name": "Workers"
             }
           ]
+        },
+          {
+          "name": "Foreman",
+          "attributes": {
+            "department": "businessman"
+          },
+          "children": [
+            {
+              "name": "Workers",
+               "attributes": "aa"
+          }
+            ,
+
+             {
+              "name": "Workers 2"
+            },
+             {
+              "name": "Workers 3 "
+            }
+          ]
         }
       ]
     },
