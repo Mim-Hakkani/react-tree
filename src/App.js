@@ -3,14 +3,14 @@
 import './App.css';
 import D3_tree from './Components/D3/D3_tree';
 
-// import Orranizational_tree from './Components/Orranizational_tree';
+import Orranizational_tree from './Components/Orranizational_tree';
 
 
 function App() {
   return (
     <div className="App">
-      {/* <h1>Organizational Tree Example without json normal way is : react-organizational-chart</h1> */}
-       {/* <Orranizational_tree /> */}
+      <h1>Organizational Tree Example without json normal way is : react-organizational-chart</h1> 
+       <Orranizational_tree />
         
       <h1 style={{color:'red',marginTop:'15px'}}>D3 Tree Example with json api way is : react-d3-tree</h1>
 
@@ -23,9 +23,3 @@ function App() {
 export default App;
 
 
-// git init
-// git add README.md
-// git commit -m "first commit"
-// git branch -M main
-// git remote add origin https://github.com/MimHakknai/react-tree.git
-// git push -u origin main
